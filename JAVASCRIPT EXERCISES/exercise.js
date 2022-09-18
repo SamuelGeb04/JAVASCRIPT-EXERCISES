@@ -1,10 +1,19 @@
+//Step 1.
+
 console.log("Hello World");
+
+//Step 2.
+
 let MyName="Samuel";
 let MyAge = 28;
 let MyFavColor= "Blue";
 const Dob= "September 01";
 
+//Step 3.
+
 console.log( MyName + " is " + MyAge + " years old," + "I'm born on " + Dob + ".And my favourite color is "  +  MyFavColor);
+
+// Step 4.
 
 let MyFriendName= "Daniel";
 let MyFriendAge= 30;
@@ -21,6 +30,8 @@ console.log( MyName + " is " + MyAge, " years old," + "I'm born on " + Dob + ".A
 
 let sum = (MyAge-1) + MyFriendAge;
 console.log("Sum of " + MyName+ " and " + MyFriendName+"'s age is " + sum );
+
+//step 5 - Data types and Arthimetic operations
 
 let x = "5" + 2 + 3;
 console.log(x);
@@ -41,14 +52,8 @@ let score = 100;
     console.log(score);
     score = true;
     console.log(score + score + score*8/2+1-20);
-    let z=10, y=50;
-    z **= y;
-    console.log(z);
-    let a;
-    a= typeof(score)
-    console.log(a);
-
-
+    
+// Comparison operators
     if (sum%2) and (MyFavColor!=Green)
     {
         console.log("I've have a reminder and my favourite color is " +MyFavColor);
@@ -59,9 +64,14 @@ let score = 100;
         console.log("I don't have a reminder and my favourite color is " +MyFavColor);
     }
 
+// Data Type of the variable
 
-
-
+    let z=10, y=50;
+    z **= y;
+    console.log(z);
+    let a;
+    a= typeof(score)
+    console.log(a);
 
 
 
